@@ -1,0 +1,7 @@
+\.ak
+*.o
+*.pm.tdy
+*.bs
+resources/
+
+
