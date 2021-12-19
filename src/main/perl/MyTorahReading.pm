@@ -1,6 +1,7 @@
 package myTorahReading;
 
 use Exporter;
+use constant::boolean;
 use charnames ();
 use Tie::IxHash;
 #URL: http://perldoc.perl.org/perluniintro.html
@@ -218,7 +219,7 @@ our $wday        = "";
 our $yday        = "";
 our $isdst       = "";
 our $year        = "";
-our $hFlag       = $FALSE;
+our $hFlag       = FALSE;
 our $hdate       = "";
 our $hyear       = "";
 our $hmon        = "";
