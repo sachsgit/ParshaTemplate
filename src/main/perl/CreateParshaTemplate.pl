@@ -431,7 +431,8 @@ my @arXPaths = (
     "//p[4]/font[1]/font[1]/text()",
     "//p[2]/span/text()",
     "//p[3]/span/text()",
-    "//p[4]/span/text()"
+    "//p[4]/span/text()",
+    "//p[4]/text()",
 );
 foreach my $item ( @items) {
      my $tree = HTML::TreeBuilder::XPath->new;
