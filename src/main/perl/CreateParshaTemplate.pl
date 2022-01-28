@@ -39,8 +39,8 @@ $strParshotPath = "." if ( ! -d $strParshotPath);
 
 my $path = dirname(abs_path($0));
 my @arMods = (
-     File::Spec->catfile($path, "MyTorahReading.pm"),
-     File::Spec->catfile($path, "MyCommonFuncs.pm")
+     File::Spec->catfile($path, "lib\\MyTorahReading.pm"),
+     File::Spec->catfile($path, "lib\\MyCommonFuncs.pm")
 );
 foreach my $mod ( @arMods ) {
      require ($mod);
